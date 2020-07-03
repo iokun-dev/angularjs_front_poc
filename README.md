@@ -1,42 +1,28 @@
-# `angular-seed` — the seed for AngularJS apps
+# `angularjs-front-poc` — poc AngularJS app
 
-This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
-to quickly bootstrap your angular webapp projects and dev environment for these projects.
-
-The seed contains a sample AngularJS application and is preconfigured to install the AngularJS
-framework and a bunch of development and testing tools for instant web development gratification.
-
-The seed app doesn't do much, just shows how to wire two controllers and views together.
+This project is an application skeleton for a typical [AngularJS][angularjs] web app.
+This app uses angularjs seed boilterplate.
 
 
 ## Getting Started
 
-To get you started you can simply clone the `angular-seed` repository and install the dependencies:
+To get you started you can simply clone the `angularjs_front_poc` repository and install the dependencies:
 
 ### Prerequisites
 
-You need git to clone the `angular-seed` repository. You can get git from [here][git].
+You need git to clone the `angularjs_front_poc` repository. You can get git from [here][git].
 
-We also use a number of Node.js tools to initialize and test `angular-seed`. You must have Node.js
+We also use a number of Node.js tools to initialize and test `angularjs_front_poc`. You must have Node.js
 and its package manager (npm) installed. You can get them from [here][node].
 
-### Clone `angular-seed`
+### Clone `angularjs_front_poc`
 
-Clone the `angular-seed` repository using git:
-
-```
-git clone https://github.com/angular/angular-seed.git
-cd angular-seed
-```
-
-If you just want to start a new project without the `angular-seed` commit history then you can do:
+Clone the `angularjs_front_poc` repository using git:
 
 ```
-git clone --depth=1 https://github.com/angular/angular-seed.git <your-project-name>
+git clone https://github.com/iokun-dev/angularjs_front_poc.git
+cd angularjs_front_poc
 ```
-
-The `depth=1` tells git to only pull down one commit worth of historical data.
-
 ### Install Dependencies
 
 We have two kinds of dependencies in this project: tools and AngularJS framework code. The tools
@@ -111,11 +97,11 @@ package-lock.json     --> Npm specific metadata, including versions of installed
 
 ## Testing
 
-There are two kinds of tests in the `angular-seed` application: Unit tests and end-to-end tests.
+There are two kinds of tests in the `angularjs_front_poc` application: Unit tests and end-to-end tests.
 
 ### Running Unit Tests
 
-The `angular-seed` app comes preconfigured with unit tests. These are written in [Jasmine][jasmine],
+The `angularjs_front_poc` app comes preconfigured with unit tests. These are written in [Jasmine][jasmine],
 which we run with the [Karma][karma] test runner. We provide a Karma configuration file to run them.
 
 * The configuration is found at `karma.conf.js`.
@@ -146,7 +132,7 @@ npm run test-single-run
 <a name="e2e-testing"></a>
 ### Running End-to-End Tests
 
-The `angular-seed` app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
+The `angularjs_front_poc` app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
 are run with the [Protractor][protractor] End-to-End test runner. It uses native events and has
 special features for AngularJS applications.
 
@@ -231,7 +217,7 @@ etc to function properly when an HTML page is opened via the `file://` scheme in
 
 ### Running the App during Development
 
-The `angular-seed` project comes preconfigured with a local development web server. It is a Node.js
+The `angularjs_front_poc` project comes preconfigured with a local development web server. It is a Node.js
 tool called [http-server][http-server]. You can start this web server with `npm start`, but you may
 choose to install the tool globally:
 
@@ -261,37 +247,3 @@ If your AngularJS app is talking to the backend server via XHR or other means, y
 out what is the best way to host the static files to comply with the same origin policy if
 applicable. Usually this is done by hosting the files by the backend server or through
 reverse-proxying the backend server(s) and web server(s).
-
-
-## Continuous Integration
-
-### Travis CI
-
-[Travis CI][travis] is a continuous integration service, which can monitor GitHub for new commits to
-your repository and execute scripts such as building the app or running tests. The `angular-seed`
-project contains a Travis configuration file, `.travis.yml`, which will cause Travis to run your
-tests when you push to GitHub.
-
-You will need to enable the integration between Travis and GitHub. See the
-[Travis website][travis-docs] for instructions on how to do this.
-
-
-## Contact
-
-For more information on AngularJS please check out [angularjs.org][angularjs].
-
-
-[angularjs]: https://angularjs.org/
-[git]: https://git-scm.com/
-[http-server]: https://github.com/indexzero/http-server
-[jasmine]: https://jasmine.github.io/
-[jdk]: https://wikipedia.org/wiki/Java_Development_Kit
-[jdk-download]: http://www.oracle.com/technetwork/java/javase/downloads
-[karma]: https://karma-runner.github.io/
-[local-app-url]: http://localhost:8000/index.html
-[node]: https://nodejs.org/
-[npm]: https://www.npmjs.org/
-[protractor]: http://www.protractortest.org/
-[selenium]: http://docs.seleniumhq.org/
-[travis]: https://travis-ci.org/
-[travis-docs]: https://docs.travis-ci.com/user/getting-started
